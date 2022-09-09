@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  float: center;
 }
 
 .App-logo {
@@ -13,8 +14,11 @@
   }
 }
 
+
+
+
 .App-header {
-  background-color: #282c34;
+  background-color: #252b42;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +39,58 @@
   to {
     transform: rotate(360deg);
   }
+
+  
 }
+
+body{
+  background-color: #252b42;
+  color: white;
+}
+
+.text {
+  float: left;
+  width: 43px;
+  padding: 119px;
+  height: 28px;
+  size: 15px;
+  color: white;
+  letter-spacing: 0.2px;
+  margin-top: 160px;
+}
+
+.contact {
+  float: left;
+  padding: 119px;
+  height: 28px;
+  text-size-adjust: 15px;
+  letter-spacing: 0.2px;
+  margin-top: 176px;
+  line-height: 29.5px;
+  margin-bottom: 10px;
+  
+}
+
+.ver  {
+  display: table-column;
+  float: right;
+}
+.icon 
+{
+  float: left;
+  padding: 50px;
+  width: 10px;
+  height: 28px;
+  size: 15px;
+  margin-bottom: 90px;
+  margin-right: 50px;
+}
+
+@font-face {
+	font-family: "Graphik-Regular";
+	src: local('Graphik-Regular'), url('./font/Graphik-Regular.ttf') format('truetype');
+  
+}
+
+
+
