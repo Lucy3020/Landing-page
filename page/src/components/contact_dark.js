@@ -1,3 +1,4 @@
+import './contact_dark.css';
 import '../font/Graphik-Regular.ttf';
 import twitter from '../imgic/twitter.png';
 import face from '../imgic/face.jpg';
@@ -6,10 +7,10 @@ import gps from '../imgic/gps.png';
 import phone from '../imgic/phone.png';
 
 
-function contact_dark()
+function Contact_dark()
 {
     return (
-        <div className="App" >
+      <div className='contact-l'>
           <div className="text" >
             <h1>Pages</h1>
             <p>Home</p>
@@ -34,22 +35,21 @@ function contact_dark()
             <p> Marvin&nbsp;Hawkins</p> 
             <p>  Bruce&nbsp;Simmmons</p>
           </div>
-          <div className="contact">
+          <div className="contact1">
             <span><img src = {gps}  alt=''/></span>
             <span>&nbsp;&nbsp;7480 Mockingbird Hill undefined</span>
             <br></br>
-            <span><img src = {phone} alt=''/></span>
-            <span>&nbsp;&nbsp;(239) 555-0108</span>
+            <span>&nbsp;<img src = {phone} alt=''/></span>
+            <span>&nbsp;&nbsp;&nbsp;(239) 555-0108</span>
             <br></br>
           </div>
-          <div className='ver'>
-              <div className="icon"><img src = {twitter} alt='' /></div>
-              <div className="icon"><img src = {face} alt='' /></div>
-              <div className="icon"><img src = {ins} alt='' /></div>
+          <div className='ver1'>
+              <div className="icon1"><img src = {twitter} alt='' /></div>
+              <div className="icon1"><img src = {face} alt='' /></div>
+              <div className="icon1"><img src = {ins} alt='' /></div>
           </div>
-        </div>
-        
+          </div>
       );
 }
 
-export default contact_dark;
+export default Contact_dark;
