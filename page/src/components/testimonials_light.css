@@ -1,0 +1,86 @@
+.testi{
+  float: center;
+  position: relative;
+  margin-bottom: 100px;
+}
+.tes{
+  position: relative;
+  width: 188px;
+  height: 55px;
+  font-family: 'Graphik-Regular';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252B42;
+    margin-top: 50px;
+    margin-left: 520px;
+   
+  }
+  
+  .ibm{
+    width: 149.85px;
+    height: 59.94px;
+    position: relative;
+    bottom: 0.1%;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 290px;
+    margin-right: 300px;
+  }
+  .p{
+    position: relative;
+    width: 967px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  .avatar{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-left: 576.5px;
+  }
+  .info{
+    position: relative;
+  Font-size: 15px;
+  line-height: 23px;
+  text-align : left;
+  vertical-align: top;
+  letter-spacing: 0.1px;
+  color: #374754;
+  word-spacing: 0.1px;
+  margin-left: 740px;
+  margin-top: -180px;
+  
+  }
+.button {
+  position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 276px;
+    height: 60px;
+    background-color: #2091F9;
+    padding: 16px 47px;
+    text-align: center;
+    border-radius: 35px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    margin-left: 551.5px;
+    margin-top: 50px;
+    border: none;
+    text-decoration: none;
+    color: white;
+  }
