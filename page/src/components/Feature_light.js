@@ -9,7 +9,8 @@ function Feature_light()
      return (
   <div className='feature_light'>
       <div className='default'><h2>Features</h2></div>
-      <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+      <h4>Most calendars are designed for teams.</h4>
+      <h4>Slate is designed for freelancers</h4>
       <div className="icon2">
         <img src = {font} alt='' />
         <h3>OpenType features Variable fonts</h3>

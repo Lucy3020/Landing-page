@@ -14,7 +14,7 @@ function Light_CTA()
           <p>Available exclusivery on Figmaland</p>
         </div>
         <span>
-          <input className="input" type="text" value={"Your email"}></input>
+          <input className="input" type="text" value={"          Your email"}></input>
           <button className='button3'>Subscribe</button>
         </span>
         

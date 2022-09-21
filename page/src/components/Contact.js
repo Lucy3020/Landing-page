@@ -19,18 +19,18 @@ function Contact() {
           <div className="icon3">
             <img src = {form} alt='' />
           </div>
-          <div className="icon4">
-            <img src = {gps2} alt='' />
-            <h5 >6386 Spring St undefined Anchorage, Georgia 12473 United States</h5>
-          </div>
-          <div className="icon4">
-            <img src = {phone2} alt='' />
-            <h5 >(843) 555-0130</h5>
-          </div>
-          <div className="icon4">
-            <img src = {mail} alt='' />
-            <h5 >willie.jennings@example.com</h5>
-          </div>
+      <div class="icon8">
+        <img src={gps2} alt=''/>
+        <h5 class="caption">6386 Spring St undefined Anchorage, Georgia 12473 United States</h5>
+      </div>
+      <div class="icon8">
+        <img src={phone2} alt=''/>
+        <h5 class="caption">(843) 555-0130</h5>
+      </div>
+      <div class="icon8">
+        <img src={mail} alt=''/>
+        <h5 class="caption">willie.jennings@example.com</h5>
+      </div>
       </div>
           <div className='block4'>
           <div className="icon5"><img src = {map} alt='' /></div>
