@@ -1,13 +1,13 @@
 import './App.css';
 import './font/Graphik-Regular.ttf';
-import Header_light from './components/Header_light.js';
-import Feature_light from './components/Feature_light.js';
-import Contact_dark from './components/Contact_dark.js';
-import Hero_light from './components/Hero_light.js';
-import Light_CTA from './components/Light_CTA.js';
-import Partner_light from './components/Partner.js';
-import Testimonials_light from './components/Testimonials_light.js';
-import Pricing_light from './components/Pricing.js';
+import Header from './components/Header_light.js';
+import Feature from './components/Feature_light.js';
+import Contactdark from './components/Contact_dark.js';
+import Hero from './components/Hero_light.js';
+import Light from './components/Light_CTA.js';
+import Partner from './components/Partner.js';
+import Testimonials from './components/Testimonials_light.js';
+import Pricing from './components/Pricing.js';
 import Contact from './components/Contact.js';
 
 function App() {
@@ -15,19 +15,19 @@ function App() {
     <div className='App'>
       <meta name='viewport' content='width=device-width, initial-scale=1.0' ></meta>
       <header >
-        <Header_light/>
+        <Header/>
       </header>
       <body>
-        <Feature_light/>
-        <Hero_light/>
-        <Light_CTA/>
-        <Partner_light/>
-        <Testimonials_light/>
-        <Pricing_light/>
+        <Feature/>
+        <Hero/>
+        <Light/>
+        <Partner/>
+        <Testimonials/>
+        <Pricing/>
         <Contact/>
       </body>
       <footer>
-      <Contact_dark/>
+      <Contactdark/>
       </footer>
     </div>
   );
