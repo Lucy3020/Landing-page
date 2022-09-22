@@ -45,18 +45,8 @@ footer{
     transform: rotate(360deg);
   }
   }
-
-  header{
-    text-align: center;
-    float: center;
-    height: 100%;
-    font-family: 'Graphik-Regular';
-    background-image: url('./imgic/Home_background.png');
-    background-attachment:local;
-    background-size:cover;
-    color: white;
-    text-decoration-color: white;
-  }
+  @media only screen and (max-width: 100px){
+  
   body{
     text-align: center;
     float: center;
@@ -76,6 +66,17 @@ footer{
 	src: local('Graphik-Regular'), url('./font/Graphik-Regular.ttf') format('truetype');
   
 }
-
+}
+header{
+  text-align: center;
+  float: center;
+  height: 100%;
+  font-family: 'Graphik-Regular';
+  background-image: url('./imgic/Home_background.png');
+  background-attachment:local;
+  background-size:cover;
+  color: white;
+  text-decoration-color: white;
+}
 
 
