@@ -1,0 +1,89 @@
+.contact2{
+    display: block;
+    position: relative;
+    float: center; 
+    margin-top: 0px;
+    margin-bottom: 400px;
+}
+.text2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #252B42;
+    }
+    .slogan2{
+        position: relative;
+      margin-top: 10px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 40px;
+      width: 532px;
+      margin-left: 100px;
+      margin-right: 100px;
+      color: #374754;
+    }
+    
+     .ver2{
+        padding: relative;
+      margin-top: -50px;
+     }
+     .icon3{
+        position: relative;
+      margin-left: 30px;
+      float: left;
+     }
+
+    .icon8 {
+      vertical-align: top;
+      display: inline-block;
+      text-align: center;
+      width: 250px;
+      margin-top: -600px ;
+      margin-bottom: 0px;
+      font-weight: 700;
+      text-size-adjust: 16px;
+      line-height: 23px;
+      color: #374754;
+      font-weight: 500;
+      margin-left: 50px;
+      margin-right: 5px;
+      
+  }
+  .caption {
+      display: block;
+  }
+     .icon5{
+        position: relative;
+      margin-left: 80px;
+      margin-top: -650px;
+      margin-right: 500px;
+    
+     }
+     .block4{
+        position: relative;
+        margin-left: 700px;
+        margin-top: 0px;
+        margin-right: 0px;
+     }
+     .icon6{
+        position: relative;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction:  row;
+      float: left;
+      margin-right: 40px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin-top: 50px;
+     }
